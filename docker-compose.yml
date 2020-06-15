@@ -27,7 +27,7 @@ services:
 
   doctissimo-api-mysql:
     container_name: doctissimo-api-mysql
-    image: mysql:8.0
+    image: mysql:5.7
     restart: on-failure
     environment:
       MYSQL_ROOT_PASSWORD: root
